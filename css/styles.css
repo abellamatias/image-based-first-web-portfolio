@@ -62,6 +62,7 @@ nav a:hover{
 /* Inicio Home */
 .contenedor-home{
     width: 100% ;
+    margin-bottom: 170px;
 }
 .contenedor-home .mi-imagen{
     width: 275px;
@@ -70,7 +71,7 @@ nav a:hover{
 }
 .descripcion-img{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,3 +96,33 @@ nav a:hover{
     justify-content: center;
     flex-basis: 68%;
 }
+
+.contenedor-home .redes-email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 222px 0 0 0;
+}
+
+.contenedor-home .redes-email .email{
+    font-size: 15px;
+}
+
+.contenedor-home .redes-email .icono{
+    width: 18px;
+    height: 18px;
+    padding-right: 30px;
+}
+.contenedor-home .redes-email .icono{
+    width: 18px;
+    height: 18px;
+    padding-right: 30px;
+    transition: 0.2s;
+}
+
+.contenedor-home .redes-email .icono:hover{
+    transform: scale(1.1);
+}
+
+/* Fin Home */
