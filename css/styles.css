@@ -5,10 +5,6 @@
     color: #212121;
 }
 
-:root {
-    --apply-bold: font-weight:bold;
-  }
-
 body{
     background-color: #f8f8f8;
     display: flex;
@@ -37,6 +33,7 @@ header{
 header img{
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
 nav{
@@ -59,3 +56,42 @@ nav a:hover{
     font-weight: bold;
 }
 /* Fin Header */
+
+/* Inicio Main */
+
+/* Inicio Home */
+.contenedor-home{
+    width: 100% ;
+}
+.contenedor-home .mi-imagen{
+    width: 275px;
+    height: 275px;
+    border-radius: 3px;
+}
+.descripcion-img{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descripcion-img .nombre{
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+.descripcion-img .nombre span{
+    font-weight: bold;
+}
+
+.descripcion-img .descripcion{
+    font-size: 30px;
+    margin: 0;
+}
+
+.nombre-descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 68%;
+}
