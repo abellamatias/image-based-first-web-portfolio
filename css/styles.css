@@ -237,3 +237,84 @@ nav a:hover{
 }
 /* Fin Estudios */
 
+/* Fin Contenedor mas chico */
+
+/* Inicio Contacto */
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto .info{
+    flex-basis: 40%;
+}
+
+.contacto .formulario{
+    background-color: #212121;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto .formulario form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto .formulario .input{
+    width: 75%;
+    padding: 26px 5% 3px 0;
+    border: none;
+    border-bottom: 1px solid rgba(248, 248, 248, 0.7);
+    background-color: #212121;
+    color: #f8f8f8;
+    font-size: 12px;
+    outline: none;
+
+}
+
+.contacto .formulario .input:focus{
+    border-color: #f8f8f8;
+}
+
+.contacto .formulario .input::placeholder{
+    color: #f8f8f8;
+    opacity: 0.8;
+    font-weight: lighter;
+}
+
+.contacto .formulario textarea{
+    resize: none;
+}
+
+.contacto .formulario .contenedor-boton{
+    display: flex;
+    width: 75%;
+    justify-content: right;
+}
+
+.contacto .formulario .contenedor-boton button{
+    border: none;
+    margin-top: 14px;
+    border-radius: 1px;
+    background-color: #f8f8f8;
+    padding: 6px 15px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.contacto h3{
+    font-size: 23px;
+    font-weight: normal;
+}
+
+
+
+
+/* Fin Contacto */
