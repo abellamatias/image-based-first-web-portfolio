@@ -54,7 +54,7 @@
     }
 
     .contenedor-home .nombre-descripcion p{
-        text-align: center;
+        text-align: left;
     }
 
     .servicios .contenedor-cards .card{
@@ -115,14 +115,14 @@
    }
 
    .lista-nav a{
-    font-size: 48px;
+    font-size: 200%;
     font-weight: 600;
    }
 
    header .icono-lista{
     display:block;
-    right: 10px;
     }
+
     .menu-hamburguesa:checked + .lista-nav{        
      height: calc(100vh - 65px); 
     }
