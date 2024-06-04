@@ -34,7 +34,7 @@ h4{
 
 .contenedor{
     width: 63%;
-    padding: 50px 106px;
+    padding: 50px 106px 0 106px;
 }
 
 /* Inicio Header */
@@ -346,3 +346,19 @@ nav a:hover{
     font-weight: lighter;
 }
 /* Fin Contacto */
+
+/* Inicio footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+footer p{
+    font-size: 17px;
+    font-weight: 350;
+}
+
+/* Fin Footer */
