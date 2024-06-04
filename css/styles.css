@@ -39,7 +39,6 @@ h4{
     padding: 50px 106px 0 106px;
 }
 
-
 .icono{
     width: 18px;
     height: 18px;
@@ -98,8 +97,7 @@ nav{
     transition: 0.2s;
 }
 
-.lista-nav a:hover{
-    
+.lista-nav a:hover{    
     transform: scale(1.1);
 }
 
@@ -108,14 +106,17 @@ nav{
 /* Inicio Main */
 
 /* Inicio Home */
+
 .contenedor-home{
     width: 100% ;
 }
+
 .contenedor-home .mi-imagen{
     width: 275px;
     height: 275px;
     border-radius: 3px;
 }
+
 .descripcion-img{
     width: 100%;
     margin-top: 130px;
@@ -128,6 +129,7 @@ nav{
     font-size: 51px;
     margin: 0 0 20px 0;
 }
+
 .descripcion-img .nombre span{
     font-weight: 600;
 }
@@ -174,15 +176,13 @@ nav{
 }
 
 .contenedor-cards .card{
-    flex-basis: 30%;
-    
+    flex-basis: 30%;    
 }
 
 .card img{
     width: 50px;
     height: 50px;
 }
-
 
 /* Fin Servicios */
 
@@ -197,7 +197,6 @@ nav{
 .habilidades{
     width: 100%;
 }
-
 
 .habilidades .front{    
     display: flex;
@@ -241,18 +240,18 @@ nav{
 
 /* Inicio Estudios */
 
-.estudios{
-}
-
 .estudios hr{
     margin: 34px 0;
 }
+
 .estudios h4{
     margin: 0 0 16px 0;
 }
+
 .estudios p{
     margin: 0;
 }
+
 /* Fin Estudios */
 
 /* Fin Contenedor mas chico */
@@ -264,7 +263,6 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-
 
 .contacto h3{
     font-size: 23px;
@@ -308,6 +306,7 @@ nav{
 .contacto .info .icono{
     margin-right: 13px;
 }
+
 .contacto .formulario{
     background-color: #212121;
     flex-basis: 50%;
@@ -335,7 +334,6 @@ nav{
     color: #f8f8f8;
     font-size: 12px;
     outline: none;
-
 }
 
 .contacto .formulario .input:focus{
@@ -375,6 +373,8 @@ nav{
 }
 
 /* Fin Contacto */
+
+/* Fin Main */
 
 /* Inicio footer */
 
