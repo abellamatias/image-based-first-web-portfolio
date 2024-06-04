@@ -34,30 +34,51 @@ h4{
 }
 
 .contenedor{
-    width: 63%;
+    width: 100%;
     max-width: 1210px;
     padding: 50px 106px 0 106px;
 }
 
+
+.icono{
+    width: 18px;
+    height: 18px;
+    padding-right: 0;
+    transition: 0.2s;
+}
+
+.icono:hover{
+    transform: scale(1.1);
+}
+
 /* Inicio Header */
-header{    
+ header{    
     position: fixed;
     margin: 0 -10px 0 -10px;
     padding:10px;
     top:0;
-    width: 63%;
+    width: 100%;
     max-width: 1210px;
     display: flex;
     justify-content: space-between;
     background-color:rgba(248, 248, 248, 0.8);    
     backdrop-filter: blur(5px);
-}
+} 
+
+
 
 header img{
     width: 50px;
     height: 50px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
 
 nav{
     display: flex;
@@ -78,16 +99,6 @@ nav a:hover{
     transform: scale(1.1);
 }
 
-.icono{
-    width: 18px;
-    height: 18px;
-    padding-right: 0;
-    transition: 0.2s;
-}
-
-.icono:hover{
-    transform: scale(1.1);
-}
 /* Fin Header */
 
 /* Inicio Main */
@@ -274,6 +285,7 @@ nav a:hover{
 .contacto .info .redes-email{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .contacto .info .opcion{
@@ -284,10 +296,14 @@ nav a:hover{
     font-size: 17px;
 }
 
+.contacto .info .lista-iconos{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .contacto .info .icono{
     margin-right: 13px;
 }
-
 .contacto .formulario{
     background-color: #212121;
     flex-basis: 50%;
