@@ -35,6 +35,7 @@ h4{
 
 .contenedor{
     width: 63%;
+    max-width: 1210px;
     padding: 50px 106px 0 106px;
 }
 
@@ -45,9 +46,10 @@ header{
     padding:10px;
     top:0;
     width: 63%;
+    max-width: 1210px;
     display: flex;
     justify-content: space-between;
-    background-color:rgba(248, 248, 248, 0.5);    
+    background-color:rgba(248, 248, 248, 0.8);    
     backdrop-filter: blur(5px);
 }
 
@@ -344,7 +346,14 @@ nav a:hover{
     padding: 6px 15px;
     font-size: 12px;
     font-weight: lighter;
+    transition: 0.2s;
 }
+
+.contacto .formulario .contenedor-boton button:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(248, 248, 248, 0.3);
+}
+
 /* Fin Contacto */
 
 /* Inicio footer */
