@@ -21,12 +21,13 @@ p{
     font-size: 14px;
 }
 
-.subtitulo{
-    
+.subtitulo{    
+        margin-top: 0;
+        padding-top: 205px;
         font-size: 37px;
-        margin-bottom: 65px;
-    
+        margin-bottom: 65px;    
 }
+
 h4{
     font-size: 23px;
     font-weight: 500;
@@ -92,7 +93,6 @@ nav a:hover{
 /* Inicio Home */
 .contenedor-home{
     width: 100% ;
-    margin-bottom: 170px;
 }
 .contenedor-home .mi-imagen{
     width: 275px;
@@ -147,8 +147,8 @@ nav a:hover{
 
 /* Inicio Servicios */
 
-.servicios{
-    margin-bottom: 205px;
+.servicios .subtitulo{
+    padding-top: 170px;    
 }
 
 .servicios .contenedor-cards{
@@ -179,7 +179,6 @@ nav a:hover{
 
 .habilidades{
     width: 100%;
-    margin-bottom: 205px;
 }
 
 
@@ -226,7 +225,6 @@ nav a:hover{
 /* Inicio Estudios */
 
 .estudios{
-    margin-bottom: 205px;
 }
 
 .estudios hr{
@@ -245,6 +243,7 @@ nav a:hover{
 /* Inicio Contacto */
 
 .contacto{
+    padding-top: 205px ;
     display: flex;
     justify-content: space-between;
 }
@@ -262,7 +261,8 @@ nav a:hover{
     justify-content: space-around;
 }
 
-.contacto .info h2{
+.contacto .info .subtitulo{
+    padding-top: 0;
     margin: 0;
 }
 .contacto .info h3{
@@ -332,7 +332,7 @@ nav a:hover{
 
 .contacto .formulario .contenedor-boton{
     display: flex;
-    width: 75%;
+    width: 80%;
     justify-content: right;
 }
 
