@@ -65,7 +65,11 @@ h4{
     backdrop-filter: blur(5px);
 } 
 
-
+header .icono-lista{
+    display: none;
+    position: relative;
+    right: 10px;
+}
 
 header img{
     width: 50px;
@@ -73,28 +77,28 @@ header img{
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
 nav{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     align-items: center;
-    min-width: 450px;
 }
 
-nav a{
+.lista-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+
+.lista-nav a{
     text-decoration: none;
     text-shadow: 0 0 5px #f8f8f8;
     padding: 5px;
     transition: 0.2s;
 }
 
-nav a:hover{
+.lista-nav a:hover{
     
     transform: scale(1.1);
 }
@@ -387,3 +391,11 @@ footer p{
 }
 
 /* Fin Footer */
+
+/* Inicio Menú Hamburguesa */
+
+.menu-hamburguesa{
+    display: none;
+}
+
+/* Fin Menú Hamburguesa */
