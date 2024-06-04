@@ -17,6 +17,17 @@ body{
     scroll-behavior: smooth;
 }
 
+p{
+    font-size: 14px;
+}
+
+.subtitulo{
+    
+        font-size: 37px;
+        margin-bottom: 65px;
+    
+}
+
 .contenedor{
     width: 63%;
     padding: 50px 106px;
@@ -82,11 +93,11 @@ nav a:hover{
 }
 
 .descripcion-img .nombre{
-    font-size: 48px;
+    font-size: 51px;
     margin: 0 0 20px 0;
 }
 .descripcion-img .nombre span{
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .descripcion-img .descripcion{
@@ -126,3 +137,33 @@ nav a:hover{
 }
 
 /* Fin Home */
+
+/* Inicio Servicios */
+
+.servicios{
+    margin-bottom: 205px;
+}
+
+.servicios .contenedor-cards{
+    display: flex;
+    gap: 5%;
+}
+
+.contenedor-cards .card{
+    flex-basis: 30%;
+    
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}
+
+.card h4{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+
+/* Fin Servicios */
