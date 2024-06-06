@@ -154,6 +154,11 @@ nav{
     margin: 222px 0 0 0;
 }
 
+.contenedor-home .redes-email .redes{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .contenedor-home .redes-email .email{
     font-size: 15px;
 }
@@ -219,6 +224,7 @@ nav{
 }
 
 .habilidad p{
+    text-wrap: nowrap;
     font-size: 22px;
 }
 
