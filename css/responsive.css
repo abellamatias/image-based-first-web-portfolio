@@ -1,3 +1,6 @@
+:root{
+    --altura-header-burger: 55px;
+}
 
   @media (max-width:1423px){
    
@@ -14,7 +17,7 @@
   @media (max-width:1280px){
    
    .contenedor{       
-    padding: 0 50px 0 50px;    
+    /* padding: 0 50px 0 50px;     */
    } 
 
   }
@@ -22,7 +25,7 @@
   @media (max-width:1024px){
    
     .contenedor{        
-     padding: 50px 10px 0 10px;     
+     padding: 0 50px 0 50px;     
     } 
 
     .contacto .info{
@@ -34,7 +37,7 @@
    @media (max-width:768px){
    
     .contenedor{        
-     padding: 50px 10px 0 10px;     
+        padding: 0 50px 0 50px;     
     } 
     
     .contenedor-home .mi-imagen{
@@ -86,11 +89,12 @@
    @media (max-width:480px){
    
     .contenedor{
-        padding-right: 0;
-        padding-left: 0;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
    header{
+    height: var(--altura-header-burger);
     align-items: center;
    }
 
@@ -124,7 +128,8 @@
     }
 
     .menu-hamburguesa:checked + .lista-nav{        
-     height: calc(100vh - 65px); 
+     height: calc(100vh - var(--altura-header-burger) - 20px); 
+     width: 100%;
     }
 
    }
