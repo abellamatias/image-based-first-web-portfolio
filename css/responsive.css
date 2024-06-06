@@ -128,9 +128,15 @@
 
    @media (max-width:320px){
    
-    .contenedor{        
-     padding:0;     
-    } 
+    .descripcion-img .nombre{
+        font-size: 40px;
+        margin: 0 0 20px 0;
+    }
+
+    .descripcion-img .descripcion{
+        font-size: 23px;
+        margin: 0;
+    }
 
     .menu-hamburguesa:checked + .lista-nav{        
         height: calc(100vh - var(--altura-header-burger));
