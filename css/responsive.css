@@ -153,6 +153,9 @@
     .redes-email{
         flex-wrap: wrap;
     }
+    footer p{
+        font-size: 15px;
+    }
  
    }
 
