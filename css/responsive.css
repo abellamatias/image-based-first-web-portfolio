@@ -123,8 +123,12 @@
      height: calc(100vh - var(--altura-header-burger) - 20px); 
      width: 100%;
     }
-
-   }
+    .contenedor-cards{
+        flex-direction: column;
+        gap: 50px !important;;
+        width: 100%;
+    }
+}
 
    @media (max-width:320px){
    
