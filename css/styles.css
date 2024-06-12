@@ -368,15 +368,15 @@ nav{
     margin-top: 14px;
     border-radius: 1px;
     background-color: #f8f8f8;
-    padding: 6px 15px;
-    font-size: 12px;
+    padding: 8px 17px;
+    font-size: 10px;
     font-weight: lighter;
     transition: 0.2s;
 }
 
 .contacto .formulario .contenedor-boton button:hover{
-    transform: scale(1.03);
-    box-shadow: 0 0 10px rgba(248, 248, 248, 0.3);
+    box-shadow: 0 0 10px rgba(248, 248, 248, 0.7);
+    cursor: pointer;
 }
 
 /* Fin Contacto */
